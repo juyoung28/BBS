@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+  <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="root" password="chu1234" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://13.209.73.88:3306/cos?useSSL=false&amp;serverTimezone=Asia/Seoul"/>
+</Context>
